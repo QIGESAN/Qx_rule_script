@@ -3078,10 +3078,10 @@ https?:\/\/m\.sd\.10086\.cn\/zapi\/app_common\/homeWelcome\/welcome.do url rejec
 ^https:\/\/vapp\.tmuyun\.com\/api\/app_start_page\/list\/new url reject-dict
 
 # > 字节跳动
-# hostname = *.pstatp.com, amemv.com, musical.com, snssdk.com, tiktokv.com, dsp.toutiao.com, 
+# hostname = *.pstatp.com, amemv.com, musical.com, tiktokv.com, dsp.toutiao.com, 
 ;^https?:\/\/.+\.pstatp\.com\/img\/ad url reject-200
 ^https?:\/\/.+\.(amemv|musical|snssdk|tiktokv)\.com\/(api|motor)\/ad\/ url reject-200
-^https?:\/\/.+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ url reject-200
+
 ^https?:\/\/dsp\.toutiao\.com\/api\/xunfei\/ads\/ url reject-200
 ^https?:\/\/[\w-]+\.amemv\.com\/aweme\/v\d\/ad\/ url reject
 ^https?:\/\/[\w-]+\.snssdk\.com\/.+_ad\/ url reject
