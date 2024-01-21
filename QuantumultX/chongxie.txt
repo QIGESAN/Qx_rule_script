@@ -1922,7 +1922,7 @@ https://ci.xiaohongshu.com/system_config/watermark url reject-img
 # 部分Tab弹窗
 ^https?:\/\/.*\.xima.*\.com\/discovery-feed\/isShowUserGiftPendant url reject
 # 屏蔽红点提示
-^https?:\/\/.*\.xima.*\.com\/mobile-user\/unread url reject
+^https\?:\\\.*\.xima\.*\.com\mobile-user\unread url reject
 # 屏蔽minor请求
 ^https?:\/\/.*\.xima.*\.com/mobile-user/minorProtection/pop url reject
 # 屏蔽隐私搜集
