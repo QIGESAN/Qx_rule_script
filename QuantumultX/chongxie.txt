@@ -1418,10 +1418,6 @@ https://ios.sspai.com/api/v3/recommend/page/get\?ad[a-zA-Z0-9]+ios_home_modal ur
 ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v1\/sams\/sams-user\/(window\/getGoUpPlus|screen_promotion\/get) url reject
 
 
-# 收钱吧 - 买单小程序去广告
-^https:\/\/api\.pinduoduo\.com\/api\/ktt_gateway\/activity\/feeds\/personal_home_page\/ url reject
-
-
 
 
 # >>>>>>>>>>>>>>> ✅ T ✅ <<<<<<<<<<<<<<
