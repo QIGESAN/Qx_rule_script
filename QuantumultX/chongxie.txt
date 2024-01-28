@@ -838,14 +838,7 @@ https://api.gotokeep.com/nuocha/course/v2/\w+/preview url script-response-body h
 # 我的运动页面去除下方推荐
 https://api.gotokeep.com/sportpage/sport/v3/mysport url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/keep.js
 
-# > 快看
-# hostname = api.kkmh.com
-^https?:\/\/api\.kkmh\.com\/v\d\/ad\/show url reject-200
-^https?:\/\/api\.kkmh\.com\/v\d\/advertisement\/ url reject-200
 
-# > 快手
-# hostname = open.e.kuaishou.com
-^https:\/\/open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/adsense.js
 
 # > 夸克
 # hostname = open-cms-api.uc.cn, open-cms-api.quark.cn
@@ -868,23 +861,6 @@ https://open3.vistastory.com/v3/api/index/loading_ad url reject
 https://open3.vistastory.com/v3/api.*get_popup url reject
 
 
-# > 快递100
-# hostname = cdn.kuaidi100.com, p.kuaidi100.com
-^https?:\/\/cdn\.kuaidi100\.com\/images\/open\/appads url reject-img
-^https?:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do url reject
-
-# > 开源中国
-# hostname = www.oschina.net
-^https?:\/\/www\.oschina\.net\/action\/apiv2\/get_launcher url reject-img
-
-
-# > 口袋校园
-# hostname = pocketuni.net
-^https?:\/\/pocketuni\.net\/\?app=api&mod=Message&act=ad url reject-200
-
-# > 口袋银行
-# hostname = cdn.sdb.com.cn
-^https:\/\/cdn\.sdb\.com\.cn\/bron-coms\/bron-coms\/material-image\/.+.jpg url reject-200
 
 # > 酷安
 # hostname = api.coolapk.com
