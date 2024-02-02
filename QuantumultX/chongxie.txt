@@ -1312,18 +1312,6 @@ https://api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON url reje
 ^https:\/\/qianbao\.smzdm\.com\/v\d\/app\/home url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
 
 
-# > 顺丰快递
-# hostname = ccsp-egmas.sf-express.com, shopic.sf-express.com, ucmp.sf-express.com
-^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade url reject-dict
-;^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/queryInfoFlow url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/shunfeng/shunfeng.js
-^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/ url reject-dict
-^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen url reject
-# 感谢【怎么肥事】分享
-^https:\/\/ucmp\.sf-express\.com\/proxy\/esgcempcore\/memberGoods\/pointMallService\/goodsList url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/SF.js
-^https:\/\/ccsp-egmas\.sf-express\.com\/cx-app-video\/video\/app\/video\/labelClusterList url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/SF.js
-^https:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/bms\/queryRecommend url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/SF.js
-^https:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/queryInfoFlow url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/SF.js
-
 
 # > 顺丰优选
 # hostname = mapi.sfbest.com
