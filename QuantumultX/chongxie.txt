@@ -2035,7 +2035,7 @@ https://ci.xiaohongshu.com/system_config/watermark url reject-img
 ^https:\/\/imcs\.citicbank\.com\/cloud\/.+(1125.+2436|1242.+2688|750.+1638|563.+1218) url reject-dict
 
 # > 中国移动
-# hostname = 
+# hostname = client.app.coc.10086.cn
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit url reject-200
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList url reject
 # 多个悬浮窗
